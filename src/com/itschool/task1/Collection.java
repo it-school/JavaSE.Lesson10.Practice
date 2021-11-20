@@ -137,7 +137,7 @@ public class Collection implements ICollection {
 
    @Override
    public String toString() {
-      String result = "{ ";
+      String result = "\n{ ";
 
       for (int element : this.array) {
          result += element + ", ";
